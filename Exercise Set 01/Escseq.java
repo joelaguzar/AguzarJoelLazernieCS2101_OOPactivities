@@ -8,7 +8,6 @@ public class Escseq {
         int num = scanner.nextInt();
 
         for (int i = 1; i <= num; i++) {
-            // Calculate the multiple of 7
             int multiple = i * 7;
 
             if (i % 2 == 0) {
