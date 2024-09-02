@@ -13,11 +13,12 @@ public class GettingGreater {
         char char2 = input.next().charAt(0);
 
         System.out.println("-----------------------------------------------");
-        System.out.println("The character with the greater value is: " + (char)Math.max(char1, char2));
+        System.out.println("The character with greater value is: " + (char)Math.max(char1, char2));
         System.out.println("-----------------------------------------------");
         System.out.println("Showing the ASCII Codes");
         System.out.println(char1 +" : " + (int) char1);
         System.out.println(char2 +" : " + (int) char2);
+        
         input.close();
     }
 }
