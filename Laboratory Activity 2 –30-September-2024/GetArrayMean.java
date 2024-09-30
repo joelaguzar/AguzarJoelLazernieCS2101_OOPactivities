@@ -19,8 +19,8 @@ public class GetArrayMean {
         System.out.println("Mean of array is: " + String.format("%.2f", mean));
 
         input.close();
-    }
-        
+    }  
+    
         public static double getArrayMean (int[] arr){
             int sum = 0;
             for (int num: arr){
