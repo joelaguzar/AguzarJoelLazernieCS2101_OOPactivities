@@ -27,7 +27,7 @@ public class MultiplicationTable {
     public static void printMultiplicationTable(int[][] table){
         int size = table.length;
 
-        System.err.println("Multiplication Table:");
+        System.out.println("Multiplication Table:");
 
         for (int row = 0; row < size; row++) {
             for (int col = 0; col < size; col++) {
