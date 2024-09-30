@@ -14,18 +14,18 @@ public class GetArrayMean {
             numbers[ctr] = input.nextInt();
         }
 
-        float mean = getArrayMean(numbers);
+        double mean = getArrayMean(numbers);
 
         System.out.println("Mean of array is: " + String.format("%.2f", mean));
 
         input.close();
     }
         
-        public static float getArrayMean (int[] arr){
+        public static double getArrayMean (int[] arr){
             int sum = 0;
             for (int num: arr){
                 sum += num;
             }
-            return (float) sum / arr.length;
+            return (double) sum / arr.length;
         }      
 }
