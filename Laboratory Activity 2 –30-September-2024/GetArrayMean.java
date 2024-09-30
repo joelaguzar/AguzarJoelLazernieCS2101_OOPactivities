@@ -23,13 +23,9 @@ public class GetArrayMean {
         
         public static float getArrayMean (int[] arr){
             int sum = 0;
-
             for (int num: arr){
                 sum += num;
             }
-
-            //float mean = sum / arr.length;
             return (float) sum / arr.length;
-        }
-        
+        }      
 }
