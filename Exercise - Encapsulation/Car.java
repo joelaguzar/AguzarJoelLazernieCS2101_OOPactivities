@@ -70,5 +70,7 @@ public class Car {
 
         Car car = new Car(color, price, size);
         System.out.println(car);
+
+        scanner.close();
     }
 }
