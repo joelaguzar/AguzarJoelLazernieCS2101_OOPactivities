@@ -8,8 +8,8 @@ enum WritingStyle {
 class Writer extends Artist {
     private WritingStyle writingStyle;
 
-    public Writer(String name, String nationality, int age, String specialty, WritingStyle writingStyle) {
-        super(name, nationality, age, specialty);
+    public Writer(String name, int age, String specialty, WritingStyle writingStyle) {
+        super(name, age, specialty);
         this.writingStyle = writingStyle;
     }
 
@@ -23,7 +23,7 @@ class Writer extends Artist {
 
     @Override
     public void displayInfo() {
-        System.out.println("== Writer Info ==");
+        System.out.println("Writer's Info:");
         super.displayInfo();
         System.out.println("Writing Style: " + writingStyle);
     }

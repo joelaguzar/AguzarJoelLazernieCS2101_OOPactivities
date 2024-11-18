@@ -8,8 +8,8 @@ enum DanceStyle {
 class Dancer extends Artist {
     private DanceStyle danceStyle;
 
-    public Dancer(String name, String nationality, int age, String specialty, DanceStyle danceStyle) {
-        super(name, nationality, age, specialty);
+    public Dancer(String name, int age, String specialty, DanceStyle danceStyle) {
+        super(name, age, specialty);
         this.danceStyle = danceStyle;
     }
 
@@ -23,7 +23,7 @@ class Dancer extends Artist {
 
     @Override
     public void displayInfo() {
-        System.out.println("== Dancer Info ==");
+        System.out.println("Dancer's Info:");
         super.displayInfo();
         System.out.println("Dance Style: " + danceStyle);
     }
