@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-    Square square = new Square(10);
-    Rectangle rectangle = new Rectangle(8, 12);
-    Triangle triangle = new Triangle(10, 12, 15);
+    Square square = new Square(13);
+    Rectangle rectangle = new Rectangle(12, 17);
+    Triangle triangle = new Triangle(11, 16, 20);
 
     //collection of shapes
     Shape[] shapes = { square, rectangle, triangle };
