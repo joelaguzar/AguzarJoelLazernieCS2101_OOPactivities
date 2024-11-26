@@ -50,7 +50,12 @@ This repository is organized into **Exercises** and **Laboratory Activities**, d
 ---
 
 #### **Lab Activity 3 – *18 November 2024***  
-
+- **Artists Folder**:
+  - A hands-on exploration of kinds of artists using OOP principles with the utilization of Enums!    
+  - **Key Features**:  
+    - **Artists Classes**: Includes classes for `Dancer`, `Singer`, `Painter` and `Writer`, each encapsulating their own properties.  
+    - **Polymorphism**: Implements a polymorphic method to output unique details for each artists.  
+    - **Reusability**: Demonstrates inheritance and method overriding for efficient code reuse.  
 
 ---
 
